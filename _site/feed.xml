@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-25T14:45:35-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">PITT Initiative on the Computational Social Science</title><subtitle>Website for the PITT Initiative on the Computational Social Science</subtitle><entry><title type="html">Hello PittCSS!</title><link href="http://localhost:4000/2021/08/20/hello-pittcss.html" rel="alternate" type="text/html" title="Hello PittCSS!" /><published>2021-08-20T12:00:00-04:00</published><updated>2021-08-20T12:00:00-04:00</updated><id>http://localhost:4000/2021/08/20/hello-pittcss</id><content type="html" xml:base="http://localhost:4000/2021/08/20/hello-pittcss.html">&lt;p&gt;We launch the PITT Initiative on the Computational Social Science to connect to everyone who are interested in doing CSS research.&lt;/p&gt;</content><author><name></name></author><summary type="html">We launch the PITT Initiative on the Computational Social Science to connect to everyone who are interested in doing CSS research.</summary></entry><entry><title type="html">Fall 2021 Student Welcome Picnic</title><link href="http://localhost:4000/2021/08/20/fall-picnic.html" rel="alternate" type="text/html" title="Fall 2021 Student Welcome Picnic" /><published>2021-08-20T12:00:00-04:00</published><updated>2021-08-20T12:00:00-04:00</updated><id>http://localhost:4000/2021/08/20/fall-picnic</id><content type="html" xml:base="http://localhost:4000/2021/08/20/fall-picnic.html">&lt;p&gt;We are hosting a cross-group student welcome picnic at xx Park. Some description here…&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;On Staturday, September 18, 10:00am-2pm, we will …&lt;/p&gt;
+
+&lt;h2 id=&quot;attending&quot;&gt;Attending&lt;/h2&gt;
+
+&lt;p&gt;If you want to attend or help prepare ….&lt;/p&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;The organizers of the event are Peter, Rosta, Morgan, Lingfei, and Yu-Ru.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are hosting a cross-group student welcome picnic at xx Park. Some description here…</summary></entry></feed>

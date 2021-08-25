@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="content">
+      <header class="bg-white">
+        <div
+          class="w-100 mw8 ph4-l ph3 center pt2 pb3 flex items-baseline flex flex-wrap"
+        >
+          <a href="/" class="dib f2 f3-ns fw6 link black hover-the-red center-s pb3 pr3">
+            PittCSS
+            <picture>
+              <!-- <source
+                srcset="{{ '/assets/logo-light.svg' | relative_url }}"
+                type="image/svg+xml"
+              />
+              <source
+                srcset="{{ '/assets/logo-light.webp' | relative_url }}"
+                type="image/webp"
+              /> -->
+              <source
+                srcset="{{ '/assets/logo-pittcss-7.png' | relative_url }}"
+                type="image/png"
+              />
+              <img
+                alt="tentative PittCSS icon"
+                class="pl2 w3"
+                style="margin-bottom: -1rem"
+              />
+            </picture>
+          </a>
+          <nav
+            class="mt2 ml-auto-ns lh-copy w-auto-ns w-100 flex flex-column flex-row-ns f4 f5-ns"
+          >
+            <div class="tc mt0-ns mt2">
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="{{ '/about' | relative_url }}"
+                >About</a
+              >
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="{{ '/team' | relative_url }}"
+                >Team</a
+              >
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="{{ '/publications' | relative_url }}"
+                >Publications</a
+              >
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="{{ '/news' | relative_url }}"
+                >News</a
+              >
+            </div>
+            <div class="tc ml3-m ml4-l">
+              <!-- <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="https://github.com/pittcss"
+                ><i class="fab fa-github mr2"></i>GitHub</a
+              > -->
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="https://twitter.com/pittcss"
+              >
+                <i class="fab fa-twitter mr2"></i>Twitter</a
+              >
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+    </div>
+
+    <footer class="bt dark-gray white mt5 flex-shrink-0">
+      <div class="w-100 mw8 ph4-l ph3 center pv5">
+        <div class="flex flex-row-ns flex-column">
+          <div class="w-50-ns">
+            <div class="pv1">
+              Hello from Pittsburgh.
+              <a
+                href="{{ '/team' | relative_url }}"
+                class="link white dim underline"
+                >Come join us!</a
+              >
+            </div>
+            <!-- <div class="pv1">
+              <a
+                href="https://github.com/pittcss/pittcss.github.io/edit/master/{{
+                  page.path
+                }}"
+                class="link white dim"
+                >Edit this page</a
+              >
+            </div> -->
+            <div class="pv1">
+              We are
+              <a href="https://twitter.com/pittcss" class="link white dim"
+                >@pittcss</a
+              >
+              on Twitter.
+            </div>
+            <div class="pt4">
+              <abbr
+                title="Last build on {{ site.time | date: '%Y-%m-%d' }}"
+                class="white"
+                style="text-underline-position: under"
+                >{{ site.time | date: "%B %Y" }}</abbr
+              >
+            </div>
+          </div>
+          <div class="w-50-ns">
+            <h4 class="white mt0-ns">Links</h4>
+            <ul class="list pl0">
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib"
+                  >School of Computing and Information</a
+                >
+              </li>
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib"
+                  >University of Pittsburgh</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

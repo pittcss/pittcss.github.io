@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <div class="w-100 mw8 ph4-l ph3 pv5-l pv3 center">
+    <h1 class="f1 lh-title measure mt3">PITT Initiative on the Computational Social Science</h1>
+    <p class="f4 measure lh-copy">
+      We are a research group at the
+      <a href="https://xx">University of Pittsburgh</a>. Our
+      mission is to XX.
+    </p>
+    <h3>
+      <a class="cta" href="{{ '/about' | relative_url }}"
+        >Learn more about our group</a
+      >
+    </h3>
+  </div>
+</div>
+
+<section class="w-100 mw8 ph4-l ph3 center">
+  <div class="pv3">
+    <h2 class="f2">Research Areas</h2>
+    <a class="cta" href="/projects">Learn ongoing projects</a>
+
+    <p class="f4 measure-wide lh-copy">
+      Our group conducts research in XX at the intersection of
+      X, Y, Z.
+    </p>
+
+    <div class="flex flex-row-ns flex-wrap pt3">
+      <!-- <div class="mr2-ns mv2 w-40-l flex-auto shadow-4 pa3 br2">
+        <h3 class="f4 mt0">Visualization</h3>
+        <p class="measure lh-copy">
+          Visualization leverages human perception to make (potentially large)
+          data accessible. We are developing new languages and tools for
+          analysis and communication.
+        </p>
+      </div> -->
+      <div class="mr2-ns mv2 w-40-l flex-auto shadow-4 pa3 br2">
+        <h3 class="f mt0">Human-Centered Data Science</h3>
+        <p class="measure lh-copy">
+          While computers can help us manage data, human judgment and domain
+          expertise is what turns it into understanding. Meeting the challenges
+          of increasingly large and complex data requires methods that richly
+          integrate the capabilities of both people and machines.
+        </p>
+      </div>
+      <div class="mr2-ns mv2 w-40-l flex-auto shadow-4 pa3 br2">
+        <h3 class="f4 mt0">Interpretable Machine Learning</h3>
+        <p class="measure lh-copy">
+          Machine learning allows data scientists to summarize, aggregate, and
+          make predictions about their data. But computers don't explain their
+          predictions, which limits interpretability and actionable insights. We
+          create techniques and systems that make models and their decisions
+          understandable.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mv3 measure-wide">
+    <h2 class="f3 mt0">News</h2>
+    <ul class="list pl0">
+      {% assign sorted_posts = site.posts %} {% for post in sorted_posts
+      limit:5 %}
+      <li class="pb3">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date }}" class="db f6 black-80"
+          >{{ post.date | date: "%b %Y" }}</time
+        >
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="cta" href="/news">Show all</a>
+</div>
+
+  <!-- <div class="mv3 measure-wide">
+    <h2 class="f3 mt0">Participate</h2>
+    <p class="lh-copy">
+      Interested in sharing your expertise with us? Check out our ongoing
+      research studies with visualization, machine learning, and data science
+      practitioners!
+    </p>
+    <a class="link dim dib cta" href="/studies"> Learn More </a>
+  </div> -->
+
+  <div class="pv3">
+    <h2 class="f3">Recent Publications</h2>
+
+    <a class="cta" href="/publications">Show all</a>
+
+    <div class="mv3">
+      {% assign recent_pubs = site.publications | reverse %} {% for pub in
+      recent_pubs limit:5 %}
+      <div class="mt4 mt3-ns flex flex-row-ns flex-column">
+        <!-- {% assign thumb = 'assets' | append: pub.url | replace: '.html',
+        '_thumb.png' %}
+        <div
+          class="h3 mr3-ns mb2 mb0-ns flex-shrink-0 preview-image ba b--black-05 db"
+          style="background-image: url('{{ thumb | relative_url }}')"
+        ></div> -->
+        <div class="measure-wide">
+          <div class="mb1">
+            <a href="{{ pub.url }}" class="b link black-80 hover-the-red"
+              >{{ pub.title }}</a
+            >
+            <span class="fw2">
+              {% for author in pub.authors %}{% include person name=author %}{%
+              unless forloop.last %}, {% endunless %}{% endfor %}</span
+            >, <span class="nowrap">{{ pub.venue }} {{ pub.year }}</span>
+          </div>
+          <a href="{{ pub.url }}" class="cta">Show details</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <a class="cta" href="/publications">Show all</a>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: Projects
+subtitle: We are working on xxx
+description: Check out our ongoing studies!
+---
+
+<div>
+  {% for post in site.posts %} {% if post.studyLink %}
+  {% include post-preview.html post=post %}
+  {% endif %} {% endfor %}
+</div>
