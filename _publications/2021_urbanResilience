@@ -1,0 +1,26 @@
+---
+layout: publication
+year: 2021
+pdf: https://www.nature.com/articles/s41467-021-22086-3
+title: "Universal resilience patterns in labor markets."
+authors:
+  - Esteban Moro*
+  - Morgan R. Frank
+  - Alex 'Sandy' Pentland
+  - Alex Rutherford
+  - Manuel Cebrian
+  - Iyad Rahwan
+awards:
+tags:
+  - Economic Complexity
+  - Urban Science
+venue: Nature Communications
+venue_tags:
+  - NatComms
+venue_url: https://www.nature.com/ncomms/
+doi: 10.1038/s41467-021-22086-3
+type:
+  - Journal
+---
+
+Cities are the innovation centers of the US economy, but technological disruptions can exclude workers and inhibit a middle class. Therefore, urban policy must promote the jobs and skills that increase worker pay, create employment, and foster economic resilience. In this paper, we model labor market resilience with an ecologically-inspired job network constructed from the similarity of occupations’ skill requirements. This framework reveals that the economic resilience of cities is universally and uniquely determined by the connectivity within a city’s job network. US cities with greater job connectivity experienced lower unemployment during the Great Recession. Further, cities that increase their job connectivity see increasing wage bills, and workers of embedded occupations enjoy higher wages than their peers elsewhere. Finally, we show how job connectivity may clarify the augmenting and deleterious impact of automation in US cities. Policies that promote labor connectivity may grow labor markets and promote economic resilience.
