@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="application-name" content="PITT Initiative on the Computational Social Science" />
+  <meta name="theme-color" content="#b00" />
+
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    rel="stylesheet"
+  />
+  <link href="/styles.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/assets/logo-pittcss-7.png"
+    sizes="250x250"
+  />
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="PITT Initiative on the Computational Social Science"
+    href="http://localhost:4000/feed.xml"
+  />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Detecting Workplace Skills from University Syllabi | PITT Initiative on the Computational Social Science</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Detecting Workplace Skills from University Syllabi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Which colleges give their students relevant skills for the future of work? Which majors or fields of study have limited effectiveness as workforce development? Data on skills and workplace activities are essential for describing labor trends in the workforce, but data on the skills taught during workforce development—in higher education in particular—remain absent. Although studies of job postings and US Department of Labor ONET data describe both the supply and demand side of a polarized job market, few studies describe the specific skills taught to college students, who then enter the workforce as “high-skill” workers. This project will fill this gap using a novel data set of 10 million university course syllabi to empirically study the skills (e.g., ONET workplace activities) taught in courses over the last decade according to the Open Syllabus Project. This project will compare the empirical skills taught in university/college classrooms with labor data from the US Department of Labor and a data set of millions of worker resumes to assess the role of higher education in job polarization, wealth inequality, and to identify the educational foundations for adaptable workers." />
+<meta property="og:description" content="Which colleges give their students relevant skills for the future of work? Which majors or fields of study have limited effectiveness as workforce development? Data on skills and workplace activities are essential for describing labor trends in the workforce, but data on the skills taught during workforce development—in higher education in particular—remain absent. Although studies of job postings and US Department of Labor ONET data describe both the supply and demand side of a polarized job market, few studies describe the specific skills taught to college students, who then enter the workforce as “high-skill” workers. This project will fill this gap using a novel data set of 10 million university course syllabi to empirically study the skills (e.g., ONET workplace activities) taught in courses over the last decade according to the Open Syllabus Project. This project will compare the empirical skills taught in university/college classrooms with labor data from the US Department of Labor and a data set of millions of worker resumes to assess the role of higher education in job polarization, wealth inequality, and to identify the educational foundations for adaptable workers." />
+<link rel="canonical" href="http://localhost:4000/2021/09/03/detecting-workplace-skills-in-university-syllabi.html" />
+<meta property="og:url" content="http://localhost:4000/2021/09/03/detecting-workplace-skills-in-university-syllabi.html" />
+<meta property="og:site_name" content="PITT Initiative on the Computational Social Science" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-03T12:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Detecting Workplace Skills from University Syllabi" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2021/09/03/detecting-workplace-skills-in-university-syllabi.html","@type":"BlogPosting","headline":"Detecting Workplace Skills from University Syllabi","dateModified":"2021-09-03T12:00:00-04:00","datePublished":"2021-09-03T12:00:00-04:00","description":"Which colleges give their students relevant skills for the future of work? Which majors or fields of study have limited effectiveness as workforce development? Data on skills and workplace activities are essential for describing labor trends in the workforce, but data on the skills taught during workforce development—in higher education in particular—remain absent. Although studies of job postings and US Department of Labor ONET data describe both the supply and demand side of a polarized job market, few studies describe the specific skills taught to college students, who then enter the workforce as “high-skill” workers. This project will fill this gap using a novel data set of 10 million university course syllabi to empirically study the skills (e.g., ONET workplace activities) taught in courses over the last decade according to the Open Syllabus Project. This project will compare the empirical skills taught in university/college classrooms with labor data from the US Department of Labor and a data set of millions of worker resumes to assess the role of higher education in job polarization, wealth inequality, and to identify the educational foundations for adaptable workers.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/09/03/detecting-workplace-skills-in-university-syllabi.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="content">
+      <header class="bg-white">
+        <div class="w-100 mw8 ph4-l ph3 center pt2 pb3 flex items-baseline flex flex-wrap">
+          <a href="/" class="dib f2 f3-ns fw6 link black hover-the-red center-s pb3 pr3">
+            PittCSS
+            <picture>
+              <!-- <source
+                srcset="/assets/logo-light.svg"
+                type="image/svg+xml"
+              />
+              <source
+                srcset="/assets/logo-light.webp"
+                type="image/webp"
+              /> -->
+              <source srcset="/assets/logo-pittcss-7.png" type="image/png"></source>
+              <img alt="tentative PittCSS icon" class="pl2 w3" style="margin-bottom: -1rem">
+            </picture>
+          </a>
+          <nav class="mt2 ml-auto-ns lh-copy w-auto-ns w-100 flex flex-column flex-row-ns f4 f5-ns">
+            <div class="tc mt0-ns mt2">
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/about">About</a>
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/team">Team</a>
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/publications">Publications</a>
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/news">News</a>
+            </div>
+            <div class="tc ml3-m ml4-l">
+              <!-- <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="https://github.com/pittcss"
+                ><i class="fab fa-github mr2"></i>GitHub</a
+              > -->
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="https://twitter.com/pittcss">
+                <i class="fab fa-twitter mr2"></i>Twitter</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section>
+  <div class="pv4 bg-near-white">
+    <div class="w-100 mw8 ph4-l ph3 pv4-l pv3 center">
+      <h1 class="f2 lh-title measure mt3">
+        Detecting Workplace Skills from University Syllabi
+      </h1>
+      
+      
+        <p class="f4 measure lh-copy mt1">September 3, 2021</p>
+      
+    </div>
+  </div>
+
+  <div class="w-100 mw8 ph4-l ph3 center mt4">
+    <div class="flex flex-row flex-wrap justify-between">
+  <article class="lh-copy  w-100">
+    <p>Which colleges give their students relevant skills for the future of work? Which majors or fields of study have limited effectiveness as workforce development? Data on skills and workplace activities are essential for describing labor trends in the workforce, but data on the skills taught during workforce development—in higher education in particular—remain absent. Although studies of job postings and US Department of Labor ONET data describe both the supply and demand side of a polarized job market, few studies describe the specific skills taught to college students, who then enter the workforce as “high-skill” workers. This project will fill this gap using a novel data set of 10 million university course syllabi to empirically study the skills (e.g., ONET workplace activities) taught in courses over the last decade according to the <a href="https://opensyllabus.org/">Open Syllabus Project</a>. This project will compare the empirical skills taught in university/college classrooms with labor data from the US Department of Labor and a data set of millions of worker resumes to assess the role of higher education in job polarization, wealth inequality, and to identify the educational foundations for adaptable workers.</p>
+
+
+    
+    <a href="https://www.pitt.edu/~mrfrank" class="black link hover-the-red mr3 dib">
+      <span class="cta">Participate</span>
+    </a>
+    
+  </article> 
+   
+</div>
+  </div>
+</section>
+
+      </main>
+    </div>
+
+    <footer class="bt dark-gray white mt5 flex-shrink-0">
+      <div class="w-100 mw8 ph4-l ph3 center pv5">
+        <div class="flex flex-row-ns flex-column">
+          <div class="w-50-ns">
+            <div class="pv1">
+              Hello from Pittsburgh.
+              <a href="/team" class="link white dim underline">Come join us!</a>
+            </div>
+            <!-- <div class="pv1">
+              <a
+                href="https://github.com/pittcss/pittcss.github.io/edit/master/_posts/2021-09-03-detecting-workplace-skills-in-university-syllabi.md"
+                class="link white dim"
+                >Edit this page</a
+              >
+            </div> -->
+            <div class="pv1">
+              We are
+              <a href="https://twitter.com/pittcss" class="link white dim">@pittcss</a>
+              on Twitter.
+            </div>
+            <div class="pt4">
+              <abbr title="Last build on 2021-09-08" class="white" style="text-underline-position: under">September 2021</abbr>
+            </div>
+          </div>
+          <div class="w-50-ns">
+            <h4 class="white mt0-ns">Links</h4>
+            <ul class="list pl0">
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib">School of Computing and Information</a>
+              </li>
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib">University of Pittsburgh</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
