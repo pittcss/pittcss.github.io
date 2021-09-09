@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="application-name" content="PITT Initiative on the Computational Social Science" />
+  <meta name="theme-color" content="#b00" />
+
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    rel="stylesheet"
+  />
+  <link href="/styles.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/assets/logo-pittcss-7.png"
+    sizes="250x250"
+  />
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="PITT Initiative on the Computational Social Science"
+    href="http://localhost:4000/feed.xml"
+  />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>StoCast: Stochastic Disease Forecasting With Progression Uncertainty | PITT Initiative on the Computational Social Science</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="StoCast: Stochastic Disease Forecasting With Progression Uncertainty" />
+<meta name="author" content="Xian Teng" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Forecasting patients’ disease progressions with rich longitudinal clinical data has drawn much attention in recent years due to its impactful application in healthcare and the medical field. Researchers have tackled this problem by leveraging traditional machine learning, statistical techniques and deep learning based models. However, existing methods suffer from either deterministic internal structures or over-simplified stochastic components, failing to deal with complex uncertain scenarios such as progression uncertainty (i.e., multiple possible trajectories) and data uncertainty (i.e., imprecise observations and misdiagnosis). To overcome these major uncertainty issues, we propose a novel deep generative model, Stochastic Disease Forecasting Model (StoCast), along with an associated neural network architecture StoCastNet, that can be trained efficiently via stochastic optimization techniques. Our StoCast model uses internal stochastic components to deal with departures of observed data from patients’ true health states, and more importantly, is able to produce a comprehensive estimate of future disease progression trajectories. Based on two public datasets related to Alzheimer’s disease and Parkinson’s disease, we demonstrate how our StoCast model achieves robust and superior performance than deterministic baseline approaches, and conveys richer information that can potentially assist doctors to make decisions with greater confidence in a complex uncertain scenario." />
+<meta property="og:description" content="Forecasting patients’ disease progressions with rich longitudinal clinical data has drawn much attention in recent years due to its impactful application in healthcare and the medical field. Researchers have tackled this problem by leveraging traditional machine learning, statistical techniques and deep learning based models. However, existing methods suffer from either deterministic internal structures or over-simplified stochastic components, failing to deal with complex uncertain scenarios such as progression uncertainty (i.e., multiple possible trajectories) and data uncertainty (i.e., imprecise observations and misdiagnosis). To overcome these major uncertainty issues, we propose a novel deep generative model, Stochastic Disease Forecasting Model (StoCast), along with an associated neural network architecture StoCastNet, that can be trained efficiently via stochastic optimization techniques. Our StoCast model uses internal stochastic components to deal with departures of observed data from patients’ true health states, and more importantly, is able to produce a comprehensive estimate of future disease progression trajectories. Based on two public datasets related to Alzheimer’s disease and Parkinson’s disease, we demonstrate how our StoCast model achieves robust and superior performance than deterministic baseline approaches, and conveys richer information that can potentially assist doctors to make decisions with greater confidence in a complex uncertain scenario." />
+<link rel="canonical" href="http://localhost:4000/publications/2021_stocast.html" />
+<meta property="og:url" content="http://localhost:4000/publications/2021_stocast.html" />
+<meta property="og:site_name" content="PITT Initiative on the Computational Social Science" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-09T10:04:32-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="StoCast: Stochastic Disease Forecasting With Progression Uncertainty" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/publications/2021_stocast.html","author":{"@type":"Person","name":"Xian Teng"},"@type":"BlogPosting","headline":"StoCast: Stochastic Disease Forecasting With Progression Uncertainty","dateModified":"2021-09-09T10:04:32-04:00","datePublished":"2021-09-09T10:04:32-04:00","description":"Forecasting patients’ disease progressions with rich longitudinal clinical data has drawn much attention in recent years due to its impactful application in healthcare and the medical field. Researchers have tackled this problem by leveraging traditional machine learning, statistical techniques and deep learning based models. However, existing methods suffer from either deterministic internal structures or over-simplified stochastic components, failing to deal with complex uncertain scenarios such as progression uncertainty (i.e., multiple possible trajectories) and data uncertainty (i.e., imprecise observations and misdiagnosis). To overcome these major uncertainty issues, we propose a novel deep generative model, Stochastic Disease Forecasting Model (StoCast), along with an associated neural network architecture StoCastNet, that can be trained efficiently via stochastic optimization techniques. Our StoCast model uses internal stochastic components to deal with departures of observed data from patients’ true health states, and more importantly, is able to produce a comprehensive estimate of future disease progression trajectories. Based on two public datasets related to Alzheimer’s disease and Parkinson’s disease, we demonstrate how our StoCast model achieves robust and superior performance than deterministic baseline approaches, and conveys richer information that can potentially assist doctors to make decisions with greater confidence in a complex uncertain scenario.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/publications/2021_stocast.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="content">
+      <header class="bg-white">
+        <div class="w-100 mw8 ph4-l ph3 center pt2 pb3 flex items-baseline flex flex-wrap">
+          <a href="/" class="dib f2 f3-ns fw6 link black hover-the-red center-s pb3 pr3">
+            PittCSS
+            <picture>
+              <!-- <source
+                srcset="/assets/logo-light.svg"
+                type="image/svg+xml"
+              />
+              <source
+                srcset="/assets/logo-light.webp"
+                type="image/webp"
+              /> -->
+              <source srcset="/assets/logo-pittcss-7.png" type="image/png"></source>
+              <img alt="tentative PittCSS icon" class="pl2 w3" style="margin-bottom: -1rem">
+            </picture>
+          </a>
+          <nav class="mt2 ml-auto-ns lh-copy w-auto-ns w-100 flex flex-column flex-row-ns f4 f5-ns">
+            <div class="tc mt0-ns mt2">
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/about">About</a>
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/team">Team</a>
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/publications">Publications</a>
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="/news">News</a>
+            </div>
+            <div class="tc ml3-m ml4-l">
+              <!-- <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="https://github.com/pittcss"
+                ><i class="fab fa-github mr2"></i>GitHub</a
+              > -->
+              <a class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib" href="https://twitter.com/pittcss">
+                <i class="fab fa-twitter mr2"></i>Twitter</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section>
+  <div class="pv4 bg-near-white">
+    <div class="w-100 mw8 ph4-l ph3 pv4-l pv3 center">
+      <h1 class="f2 lh-title measure mt3">
+        StoCast: Stochastic Disease Forecasting With Progression Uncertainty
+      </h1>
+
+      
+
+      <div class="flex flex-row flex-wrap items-start mt1">
+       
+        <div class="flex flex-column items-center mt3 mr4">
+          <picture>
+            <source srcset="https://picsolab.github.io/images/people/xian.png"></source>
+            <source srcset="/assets/person.png"></source>
+            <img class="br-100 w3 h3 mb1" alt="Picture of Xian Teng">
+          </picture>
+          <div class="black mw4 tc"><a href="http://www.pitt.edu/~xit22" class="black hover-the-red link">Xian Teng</a></div>
+        </div>
+       
+        <div class="flex flex-column items-center mt3 mr4">
+          <picture>
+            <source srcset=""></source>
+            <source srcset="/assets/person.png"></source>
+            <img class="br-100 w3 h3 mb1" alt="Picture of Sen Pei">
+          </picture>
+          <div class="black mw4 tc">Sen Pei</div>
+        </div>
+       
+        <div class="flex flex-column items-center mt3 mr4">
+          <picture>
+            <source srcset="https://picsolab.github.io/images/people/yurulin_talka.jpg"></source>
+            <source srcset="/assets/person.png"></source>
+            <img class="br-100 w3 h3 mb1" alt="Picture of Yu-Ru Lin">
+          </picture>
+          <div class="black mw4 tc"><a href="http://www.yurulin.com/" class="black hover-the-red link">Yu-Ru Lin</a></div>
+        </div>
+      
+      </div>
+
+      
+        <div class="mt3">
+          Published at
+          
+            <a href="https://ieeexplore.ieee.org/abstract/document/9132696/authors#authors">
+          
+          IEEE Journal of Biomedical and Health Informatics
+          
+          </a>
+          2021
+        </div>
+      
+
+      
+    </div>
+  </div>
+
+  <div class="w-100 mw8 ph4-l ph3 center mt4">
+    
+    <img src="/assets/publications/2021_stocast.png" alt="Teaser image" class="mw-100" style="max-height: 600px">
+
+    
+
+    
+    
+      <h2>Abstract</h2>
+      <div class="measure-wide lh-copy">
+        Forecasting patients' disease progressions with rich longitudinal clinical data has drawn much attention in recent years due to its impactful application in healthcare and the medical field. Researchers have tackled this problem by leveraging traditional machine learning, statistical techniques and deep learning based models. However, existing methods suffer from either deterministic internal structures or over-simplified stochastic components, failing to deal with complex uncertain scenarios such as progression uncertainty (i.e., multiple possible trajectories) and data uncertainty (i.e., imprecise observations and misdiagnosis). To overcome these major uncertainty issues, we propose a novel deep generative model, Stochastic Disease Forecasting Model (StoCast), along with an associated neural network architecture StoCastNet, that can be trained efficiently via stochastic optimization techniques. Our StoCast model uses internal stochastic components to deal with departures of observed data from patients' true health states, and more importantly, is able to produce a comprehensive estimate of future disease progression trajectories. Based on two public datasets related to Alzheimer's disease and Parkinson's disease, we demonstrate how our StoCast model achieves robust and superior performance than deterministic baseline approaches, and conveys richer information that can potentially assist doctors to make decisions with greater confidence in a complex uncertain scenario.
+
+      </div>
+    
+
+    
+    <h2>Materials</h2>
+      <ul class="list pl0">
+        
+        
+        
+        
+        
+        
+        
+          <li class="mt2"><a href="https://www.doi2bib.org/bib/10.1109/JBHI.2020.300671" class="black link hover-the-red">
+            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+          </a></li>
+        
+        
+        
+        
+      </ul>
+    
+  </div>
+</section>
+
+      </main>
+    </div>
+
+    <footer class="bt dark-gray white mt5 flex-shrink-0">
+      <div class="w-100 mw8 ph4-l ph3 center pv5">
+        <div class="flex flex-row-ns flex-column">
+          <div class="w-50-ns">
+            <div class="pv1">
+              Hello from Pittsburgh.
+              <a href="/team" class="link white dim underline">Come join us!</a>
+            </div>
+            <!-- <div class="pv1">
+              <a
+                href="https://github.com/pittcss/pittcss.github.io/edit/master/_publications/2021_stocast.html"
+                class="link white dim"
+                >Edit this page</a
+              >
+            </div> -->
+            <div class="pv1">
+              We are
+              <a href="https://twitter.com/pittcss" class="link white dim">@pittcss</a>
+              on Twitter.
+            </div>
+            <div class="pt4">
+              <abbr title="Last build on 2021-09-09" class="white" style="text-underline-position: under">September 2021</abbr>
+            </div>
+          </div>
+          <div class="w-50-ns">
+            <h4 class="white mt0-ns">Links</h4>
+            <ul class="list pl0">
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib">School of Computing and Information</a>
+              </li>
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib">University of Pittsburgh</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
