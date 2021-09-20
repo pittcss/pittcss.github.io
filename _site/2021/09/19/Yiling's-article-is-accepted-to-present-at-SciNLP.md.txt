@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="application-name" content="PITT Initiative on the Computational Social Science" />
+  <meta name="theme-color" content="#b00" />
+
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    rel="stylesheet"
+  />
+  <link href="/styles.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/assets/logo-pittcss-7.png"
+    sizes="250x250"
+  />
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="PITT Initiative on the Computational Social Science"
+    href="http://localhost:4000/feed.xml"
+  />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Yiling’s article is accepted to present at SciNLP | PITT Initiative on the Computational Social Science</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Yiling’s article is accepted to present at SciNLP" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Science is built upon scholarship consensus that changes over time. This raises the question of how revolutionary theories and assumptions are evaluated and accepted into the norm of science as the setting for the next scientific revolution. Yiling ’s recent work analyzed millions of research articles published over four decades and revealed the scarcity (~2%) of highly novel work, the higher chance (25%) they disrupt existing research rather than developing it, and its long-shot nature (it takes ten years or longer to recognize a novel work, over which period only 20% scholars survived). Yiling’s work also provides one of the first computational models reformulating Uzzi Atypicality, a prominent novelty measure in the Science of Science, as the distance across the latent knowledge spaces learned by neural networks. The evolution of this knowledge space characterizes how yesterday’s novelty forms today’s scientific conventions, which condition the novelty–and surprise–of tomorrow’s breakthroughs. This paper is accepted to present at SciNLP , a community aiming to bring together researchers from diverse fields who are interested in building computational systems that extract, represent the knowledge in scientific texts, and/or provide humans better access to such knowledge." />
+<meta property="og:description" content="Science is built upon scholarship consensus that changes over time. This raises the question of how revolutionary theories and assumptions are evaluated and accepted into the norm of science as the setting for the next scientific revolution. Yiling ’s recent work analyzed millions of research articles published over four decades and revealed the scarcity (~2%) of highly novel work, the higher chance (25%) they disrupt existing research rather than developing it, and its long-shot nature (it takes ten years or longer to recognize a novel work, over which period only 20% scholars survived). Yiling’s work also provides one of the first computational models reformulating Uzzi Atypicality, a prominent novelty measure in the Science of Science, as the distance across the latent knowledge spaces learned by neural networks. The evolution of this knowledge space characterizes how yesterday’s novelty forms today’s scientific conventions, which condition the novelty–and surprise–of tomorrow’s breakthroughs. This paper is accepted to present at SciNLP , a community aiming to bring together researchers from diverse fields who are interested in building computational systems that extract, represent the knowledge in scientific texts, and/or provide humans better access to such knowledge." />
+<link rel="canonical" href="http://localhost:4000/2021/09/19/Yiling's-article-is-accepted-to-present-at-SciNLP.md.txt" />
+<meta property="og:url" content="http://localhost:4000/2021/09/19/Yiling's-article-is-accepted-to-present-at-SciNLP.md.txt" />
+<meta property="og:site_name" content="PITT Initiative on the Computational Social Science" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-19T12:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Yiling’s article is accepted to present at SciNLP" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2021/09/19/Yiling's-article-is-accepted-to-present-at-SciNLP.md.txt","@type":"BlogPosting","headline":"Yiling’s article is accepted to present at SciNLP","dateModified":"2021-09-19T12:00:00-04:00","datePublished":"2021-09-19T12:00:00-04:00","description":"Science is built upon scholarship consensus that changes over time. This raises the question of how revolutionary theories and assumptions are evaluated and accepted into the norm of science as the setting for the next scientific revolution. Yiling ’s recent work analyzed millions of research articles published over four decades and revealed the scarcity (~2%) of highly novel work, the higher chance (25%) they disrupt existing research rather than developing it, and its long-shot nature (it takes ten years or longer to recognize a novel work, over which period only 20% scholars survived). Yiling’s work also provides one of the first computational models reformulating Uzzi Atypicality, a prominent novelty measure in the Science of Science, as the distance across the latent knowledge spaces learned by neural networks. The evolution of this knowledge space characterizes how yesterday’s novelty forms today’s scientific conventions, which condition the novelty–and surprise–of tomorrow’s breakthroughs. This paper is accepted to present at SciNLP , a community aiming to bring together researchers from diverse fields who are interested in building computational systems that extract, represent the knowledge in scientific texts, and/or provide humans better access to such knowledge.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/09/19/Yiling's-article-is-accepted-to-present-at-SciNLP.md.txt"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="content">
+      <header class="bg-white">
+        <div
+          class="w-100 mw8 ph4-l ph3 center pt2 pb3 flex items-baseline flex flex-wrap"
+        >
+          <a href="/" class="dib f2 f3-ns fw6 link black hover-the-red center-s pb3 pr3">
+            PittCSS
+            <picture>
+              <!-- <source
+                srcset="/assets/logo-light.svg"
+                type="image/svg+xml"
+              />
+              <source
+                srcset="/assets/logo-light.webp"
+                type="image/webp"
+              /> -->
+              <source
+                srcset="/assets/logo-pittcss-7.png"
+                type="image/png"
+              />
+              <img
+                alt="tentative PittCSS icon"
+                class="pl2 w3"
+                style="margin-bottom: -1rem"
+              />
+            </picture>
+          </a>
+          <nav
+            class="mt2 ml-auto-ns lh-copy w-auto-ns w-100 flex flex-column flex-row-ns f4 f5-ns"
+          >
+            <div class="tc mt0-ns mt2">
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="/about"
+                >About</a
+              >
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="/team"
+                >People</a
+              >
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="/publications"
+                >Publications</a
+              >
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="/news"
+                >News</a
+              >
+            </div>
+            <div class="tc ml3-m ml4-l">
+              <!-- <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="https://github.com/pittcss"
+                ><i class="fab fa-github mr2"></i>GitHub</a
+              > -->
+              <a
+                class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-the-red link dib"
+                href="https://twitter.com/pittcss"
+              >
+                <i class="fab fa-twitter mr2"></i>Twitter</a
+              >
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section>
+  <div class="pv4 bg-near-white">
+    <div class="w-100 mw8 ph4-l ph3 pv4-l pv3 center">
+      <h1 class="f2 lh-title measure mt3">
+        Yiling's article is accepted to present at SciNLP
+      </h1>
+      
+      
+        <p class="f4 measure lh-copy mt1">September 19, 2021</p>
+      
+    </div>
+  </div>
+
+  <div class="w-100 mw8 ph4-l ph3 center mt4">
+    <div class="flex flex-row flex-wrap justify-between">
+  <article class="lh-copy  w-100">
+    Science is built upon scholarship consensus that changes over time. This raises the question of how revolutionary theories and assumptions are evaluated and accepted into the norm of science as the setting for the next scientific revolution. Yiling <a href="https://lyl010.github.io/yilinglin/">'s recent work analyzed millions of research articles published over four decades and revealed the scarcity (~2%) of highly novel work, the higher chance (25%) they disrupt existing research rather than developing it, and its long-shot nature (it takes ten years or longer to recognize a novel work, over which period only 20% scholars survived). Yiling's work also provides one of the first computational models reformulating Uzzi Atypicality, a prominent novelty measure in the Science of Science, as the distance across the latent knowledge spaces learned by neural networks. The evolution of this knowledge space characterizes how yesterday's novelty forms today's scientific conventions, which condition the novelty--and surprise--of tomorrow's breakthroughs. This paper is accepted to present at SciNLP <a href="https://scinlp.org/">, a community aiming to bring together researchers from diverse fields who are interested in building computational systems that extract, represent the knowledge in scientific texts, and/or provide humans better access to such knowledge. 
+
+
+    
+    <a href="https://arxiv.org/abs/2103.03398" class="black link hover-the-red mr3 dib">
+      <span class="cta">Participate</span>
+    </a>
+    
+  </article> 
+   
+</div>
+  </div>
+</section>
+
+      </main>
+    </div>
+
+    <footer class="bt dark-gray white mt5 flex-shrink-0">
+      <div class="w-100 mw8 ph4-l ph3 center pv5">
+        <div class="flex flex-row-ns flex-column">
+          <div class="w-50-ns">
+            <div class="pv1">
+              Hello from Pittsburgh.
+              <a
+                href="/team"
+                class="link white dim underline"
+                >Come join us!</a
+              >
+            </div>
+            <!-- <div class="pv1">
+              <a
+                href="https://github.com/pittcss/pittcss.github.io/edit/master/_posts/2021-09-19-Yiling's-article-is-accepted-to-present-at-SciNLP.md.txt"
+                class="link white dim"
+                >Edit this page</a
+              >
+            </div> -->
+            <div class="pv1">
+              We are
+              <a href="https://twitter.com/pittcss" class="link white dim"
+                >@pittcss</a
+              >
+              on Twitter.
+            </div>
+            <div class="pt4">
+              <abbr
+                title="Last build on 2021-09-19"
+                class="white"
+                style="text-underline-position: under"
+                >September 2021</abbr
+              >
+            </div>
+          </div>
+          <div class="w-50-ns">
+            <h4 class="white mt0-ns">Links</h4>
+            <ul class="list pl0">
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib"
+                  >School of Computing and Information</a
+                >
+              </li>
+              <li>
+                <a href="https://xx" class="link white dim pv1 dib"
+                  >University of Pittsburgh</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
