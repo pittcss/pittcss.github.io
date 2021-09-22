@@ -1,6 +1,6 @@
 ---
 name: Rosta Farzan
 website: http://rosta-farzan.net/
-image: /assets/people/....jpg
+image: /assets/person.png
 role: Faculty
 ---
