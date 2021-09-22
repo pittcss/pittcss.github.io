@@ -1,6 +1,6 @@
 ---
 name: Rebecca Hwa
 website: www.cs.pitt.edu/~hwa
-image: /assets/people/....jpg
+image: /assets/person.png
 role: Faculty
 ---
