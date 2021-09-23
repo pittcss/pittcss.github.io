@@ -1,6 +1,6 @@
 ---
 name: Douglas Hanley
-website: doughanley.com
-image: /assets/person.png
+website: http://doughanley.com/
+image: /assets/people/hanley.jpg
 role: Faculty
 ---
