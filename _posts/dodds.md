@@ -12,6 +12,6 @@ This Friday's seminar presentation will be our first external talk given by Prof
 Peter's research focuses on system-level, big data problems in many areas including language and stories, sociotechnical systems, Earth sciences, biology, and ecology. Peter has created (and constantly evolves) a series of complex systems courses starting with Principles of Complex Systems. He co-runs the Computational Story Lab with Chris Danforth which is known for "blatantly fun research."
 
 For those interested, (completely optional) related background reading includes:
-- Experimental study of inequality and unpredictability in an artificial cultural market (https://www.science.org/doi/abs/10.1126/science.1121066) (Science. aka the Music Lab study)
-- The geography of happiness: Connecting Twitter sentiment and expression, demographics, and objective characteristics of place (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0064417) (Plos ONE)
-- Human language reveals a universal positivity bias (https://www.pnas.org/content/112/8/2389.short) (PNAS)
+- Experimental study of inequality and unpredictability in an artificial cultural market (Science. aka the Music Lab study)
+- The geography of happiness: Connecting Twitter sentiment and expression, demographics, and objective characteristics of place  (Plos ONE)
+- Human language reveals a universal positivity bias (PNAS)
