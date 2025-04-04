@@ -11,9 +11,11 @@ layout: default
       {%if page.subtitle %}
         <p class="f4 measure lh-copy">{{ page.subtitle }}</p>
       {% endif %}
-      {% if page.date %}
-        <p class="f4 measure lh-copy mt1">{{ page.date | date: "%B %-d, %Y" }}</p>
-      {% endif %}
+      {% unless page.hide_date %}
+        {% if page.date %}
+          <p class="f4 measure lh-copy mt1">{{ page.date | date: "%B %-d, %Y" }}</p>
+        {% endif %}
+      {% endunless %}
     </div>
   </div>
 

@@ -2,6 +2,7 @@
 layout: post
 title: "2025 IEEE Technical Symposium in Western Pennsylvania"
 date: 2025-04-04 10:00:00 -0400
+hide_date: true
 ---
 
 We are excited to announce that the 2025 IEEE Technical Symposium in Western Pennsylvania will be co-hosted by the IEEE and the Department of Informatics & Networked Systems, School of Computing and Information, University of Pittsburgh.
