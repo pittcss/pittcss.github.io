@@ -1,14 +1,19 @@
 ---
 layout: post
 title: "2025 IEEE Technical Symposium in Western Pennsylvania"
-date: 2025-04-03 23:12:01 -0400
+date: 2025-04-04 10:00:00 -0400
 ---
 
 We are excited to announce that the 2025 IEEE Technical Symposium in Western Pennsylvania will be co-hosted by the IEEE and the Department of Informatics & Networked Systems, School of Computing and Information, University of Pittsburgh.
 
-🗓 Date: Saturday, April 5, 2025
+🗓 Date: Saturday, **April 5, 2025**
 
-📍 Venue: 3rd Floor Theater Information Science Building 135 N Bellefield Ave, Pittsburgh, PA 15260
+📍 Location: 3rd Floor Theater Information Science Building 135 N Bellefield Ave, Pittsburgh, PA 15260
+
+🍽️ Food & Refreshments: Breakfast and lunch will be provided for all attendees. A reception with light refreshments will follow the main program.
+
+📝 Registration: Registration is free but required. Seats are limited. Please [RSVP here](https://events.vtools.ieee.org/event/register/471252) to help us plan meals and seating accurately.
+
 
 📬 Contact: For inquiries, please contact: aba70@pitt.edu
 
@@ -108,3 +113,5 @@ Title: How Should We Measure the Digital Economy?
 5. KeyMask: A Secure Keyboard for Virtual Reality Applications - Yijun Yuan (University of Pittsburgh)
 
 6. Who Spreads Hateful Conspiracy Theories? Gender Differences in Online Echo-chamber Discussions - Rr. Nefriana (University of Pittsburgh)
+
+7. The Impact of Chatbots on Undergraduate Education - Julie Lawler (University of Pittsburgh)
