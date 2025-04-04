@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-05T21:31:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">PITT Initiative on the Computational Social Science</title><subtitle>Website for the PITT Initiative on the Computational Social Science</subtitle><entry><title type="html">Kristina Lerman’s Talk: Why Social Media is So Uniquely Toxic to Our Mental Health</title><link href="http://localhost:4000/2023/09/19/Kristina-Lerman's-Talk-Why-Social-Media-is-So-Uniquely-Toxic-to-Our-Mental-Health.html" rel="alternate" type="text/html" title="Kristina Lerman’s Talk: Why Social Media is So Uniquely Toxic to Our Mental Health" /><published>2023-09-19T12:00:01-04:00</published><updated>2023-09-19T12:00:01-04:00</updated><id>http://localhost:4000/2023/09/19/Kristina-Lerman&apos;s-Talk:-Why-Social-Media-is-So-Uniquely-Toxic-to-Our-Mental-Health</id><content type="html" xml:base="http://localhost:4000/2023/09/19/Kristina-Lerman&apos;s-Talk-Why-Social-Media-is-So-Uniquely-Toxic-to-Our-Mental-Health.html">&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt; Kristina Lerman, Principal Scientist, University of Southern California Information Sciences Institute&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-03T23:20:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">PITT Initiative on the Computational Social Science</title><subtitle>Website for the PITT Initiative on the Computational Social Science</subtitle><entry><title type="html">2025 IEEE Technical Symposium in Western Pennsylvania</title><link href="http://localhost:4000/2025/04/03/ieee-technical-symposium-west-pa.html" rel="alternate" type="text/html" title="2025 IEEE Technical Symposium in Western Pennsylvania" /><published>2025-04-03T23:12:01-04:00</published><updated>2025-04-03T23:12:01-04:00</updated><id>http://localhost:4000/2025/04/03/ieee-technical-symposium-west-pa</id><content type="html" xml:base="http://localhost:4000/2025/04/03/ieee-technical-symposium-west-pa.html">&lt;p&gt;We are excited to announce that the 2025 IEEE Technical Symposium in Western Pennsylvania will be co-hosted by the IEEE and the Department of Informatics &amp;amp; Networked Systems, School of Computing and Information, University of Pittsburgh.&lt;/p&gt;
+
+&lt;p&gt;🗓 Date: Saturday, April 5, 2025&lt;/p&gt;
+
+&lt;p&gt;📍 Venue: 3rd Floor Theater Information Science Building 135 N Bellefield Ave, Pittsburgh, PA 15260&lt;/p&gt;
+
+&lt;p&gt;📬 Contact: For inquiries, please contact: aba70@pitt.edu&lt;/p&gt;
+
+&lt;h2 id=&quot;keynote-speakers&quot;&gt;Keynote Speakers&lt;/h2&gt;
+
+&lt;!-- image --&gt;
+
+&lt;h2 id=&quot;ragunathan-raj-rajkumar&quot;&gt;Ragunathan “Raj” Rajkumar&lt;/h2&gt;
+
+&lt;p&gt;Department of Electrical and Computer Engineering, Carnegie Mellon University&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Making Autonomous Vehicles Safe&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The promise of autonomous vehicles is yet be realized in terms of safety, economic productivity, convenience and quality of life improvements. The pathway to the much-anticipated revolution in transportation has been expensive and still continues. This talk will highlight the challenges and opportunities for AI in transportation while offering the view that the problem and solutions need to take a macroscopic view that is broader than AI. The presentation will discuss how our work tackles the core necessities of safety, cost and scalability for deploying autonomous consumer passenger vehicles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker’s Biography:&lt;/strong&gt; Prof. Raj Rajkumar is the George Westinghouse Professor of Electrical &amp;amp; Computer Engineering and Robotics Institute at Carnegie Mellon University, where he directs Safety21, the US DOT National University Transportation Center and the Metro21 Smart Cities Institute . He is considered a pioneer in autonomous driving technologies, and led the General Motors-Carnegie Mellon Connected and Autonomous Driving Collaborative Research Laboratory from 2004-20. He was on the Executive Committee that oversaw the CMU Tartan Racing team that won the 2007 DARPA Urban Challenge, and also led its Systems Engineering group. He has authored one book, edited another book, holds four US patents, and has more than 250 publications in peer-reviewed forums. Eight of these publications have received Best Paper Awards. He is a Fellow of the National Academy of Inventors, an IEEE Fellow, a co-recipient of the IEEE Simon Ramo Medal, and an ACM Distinguished Engineer. He received the Outstanding Technical Achievement and Leadership Award by the IEEE Technical Committee on Real-Time Systems. Prof Rajkumar’s work has influenced many commercial operating systems. He was also the founder of Ottomatika Inc that delivered the software intelligence for self-driving vehicles. Ottomatika was acquired by Delphi, now Motional. His work has been covered across prominent outlets in print, radio, TV and online media. His research interests include all aspects of cyber-pysical systems with a particular emphasis on connected and autonomous vehicles.&lt;/p&gt;
+
+&lt;!-- image --&gt;
+
+&lt;h2 id=&quot;avinash-avi-collis&quot;&gt;Avinash (Avi) Collis&lt;/h2&gt;
+
+&lt;p&gt;Heinz College of Information Systems and Public Policy, Carnegie Mellon University&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; How should we measure the digital economy?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Gross domestic product (GDP) measures production and is not meant to measure well-being. While many people nonetheless use GDP as a proxy for well-being, consumer surplus is a better measure of consumer wellbeing. This is increasingly true in the digital economy, where many digital goods have zero prices, and as a result, the welfare gains from these goods are not reflected in GDP or productivity statistics. We propose a way of directly measuring consumer’s economic well-being using massive online choice experiments. We find that digital goods generate a large amount of consumer surplus that is currently not captured in GDP.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker’s Biography:&lt;/strong&gt; Avinash (Avi) Collis is an Assistant Professor at the Heinz College of Information Systems and Public Policy at Carnegie Mellon University. He holds a Ph.D. in Management Science from MIT Sloan School of Management. His research interests include the economics of digitization, focusing on measuring the welfare gains from digital goods. His research has been covered in major media outlets and policy reports, including the New York Times, Wall Street Journal, Washington Post, the Economist, CNN, BBC, Financial Times, Bloomberg, and NPR, and reports by the US White House, Federal Reserve, Senate, and UK treasury. He is a member of the Federal Economic Statistics Advisory Committee (FESAC), which advises the Department of Commerce, BEA, BLS, and U.S. Census.&lt;/p&gt;
+
+&lt;h2 id=&quot;program-schedule&quot;&gt;Program Schedule&lt;/h2&gt;
+
+&lt;p&gt;08:00 - 08:30 - Breakfast&lt;/p&gt;
+
+&lt;p&gt;08:30 - 09:30 Session 1: AI and Autonomous Systems&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Autonomous Vehicles - AI and the role of Verification &amp;amp; Validations -Kartik Srinivasan (Torc Robotics)&lt;/li&gt;
+  &lt;li&gt;From K-Armed Bandit Problems to Real-Time Strategy Games - Chang Liu (Ohio University)&lt;/li&gt;
+  &lt;li&gt;Explanations Help: Leveraging Human Capabilities to Detect Cyberattacks on Automated Vehicles - Yaohan Ding (University of Pittsburgh)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;09:30 - 10:30&lt;/p&gt;
+
+&lt;h2 id=&quot;keynote-1&quot;&gt;Keynote 1:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Speaker: Ragunathan “Raj” Rajkumar (CMU ECE)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title: Making Autonomous Vehicles Safe&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;10:30 - 10:40 - Break&lt;/p&gt;
+
+&lt;p&gt;10:40 - 12:00 Session 2: Security, Privacy and Fault-Tolerant Systems&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;PPFL-RDSN: Privacy-Preserving Federated Learning-Based Residual Dense Spatial Networks for Encrypted Lossy Image Reconstruction -Peilin He (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Availability and Cost Analysis of Network-Attack-Resilient Byzantine Fault Tolerant Systems - Aren Alyahya (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Krait: A Backdoor Attack Against Graph Prompt Tuning - Ying Song (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Real-Time Mitigation of Non-Price Flash Loan Attacks in DeFi -Abdulrahman Alhaidari (University of Pittsburgh)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;12:00 - 12:40 - Lunch&lt;/p&gt;
+
+&lt;p&gt;12:40 - 1:00 - IEEE Young Professionals Talk&lt;/p&gt;
+
+&lt;p&gt;1:00 - 2:20 Session 3: Skills Development and Research Recognition&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Course-Skill Atlas: A National Longitudinal Dataset of Skills Taught in U.S. Higher Education Curricula - Alireza Javadian Sabet (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Mapping Workforce Potential for the CHIPS Act: Skill Similarities, Political Realities, and U.S. Semiconductor Expansion - Arezou Farzaneh (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Large Teams Overshadow Individual Recognition - Lulin Yang (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Lab Dynamics Behind Paper Retraction - Yiling Lin (University of Pittsburgh)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2:00 - 3:20&lt;/p&gt;
+
+&lt;h2 id=&quot;keynote-2&quot;&gt;Keynote 2&lt;/h2&gt;
+
+&lt;p&gt;Speaker: Avinash (Avi) Collis (CMU Heinz College)&lt;/p&gt;
+
+&lt;p&gt;Title: How Should We Measure the Digital Economy?&lt;/p&gt;
+
+&lt;p&gt;3:20 - 3:35 - Break&lt;/p&gt;
+
+&lt;p&gt;3:35 - 4:35 Session 4: Influence in Digital Spaces and Power Flow Control&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Evaluating AI Mental Health Support Alignment with Community Needs and Expectations - Andrew Aquilina (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Political Elites in the Attention Economy: Visibility Over Civility and Credibility? - Ahana Biswas (University of Pittsburgh)&lt;/li&gt;
+  &lt;li&gt;Power Flow Control in a Modern Grid with Sen Transformer - Kalyan K. Sen (Sen Engineering Solutions, Inc.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;4:35 - 5:15 - Lightning Talks (3-minute talk for each poster)&lt;/p&gt;
+
+&lt;p&gt;5:15 - 6:15 Reception and Posters&lt;/p&gt;
+
+&lt;h2 id=&quot;poster-session&quot;&gt;Poster Session&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Power Flow Control in a Modern Grid with Sen Transformer - Kalyan K. Sen (Sen Engineering Solutions, Inc.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fairness Analysis of Human and AI-Generated Student Reflection Summaries -Bhiman Kumar Baghel (University of Pittsburgh)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quantifying Exposure to Large Language Models in Millions of College Syllabi -Alireza Javadian Sabet (University of Pittsburgh)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;FlashGuard: Real-time Disruption of Non-Price Flash Loan Attacks in DeFi -Abdulrahman Alhaidari (University of Pittsburgh)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;KeyMask: A Secure Keyboard for Virtual Reality Applications - Yijun Yuan (University of Pittsburgh)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Who Spreads Hateful Conspiracy Theories? Gender Differences in Online Echo-chamber Discussions - Rr. Nefriana (University of Pittsburgh)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">We are excited to announce that the 2025 IEEE Technical Symposium in Western Pennsylvania will be co-hosted by the IEEE and the Department of Informatics &amp;amp; Networked Systems, School of Computing and Information, University of Pittsburgh.</summary></entry><entry><title type="html">Kristina Lerman’s Talk: Why Social Media is So Uniquely Toxic to Our Mental Health</title><link href="http://localhost:4000/2023/09/19/Kristina-Lerman's-Talk-Why-Social-Media-is-So-Uniquely-Toxic-to-Our-Mental-Health.html" rel="alternate" type="text/html" title="Kristina Lerman’s Talk: Why Social Media is So Uniquely Toxic to Our Mental Health" /><published>2023-09-19T12:00:01-04:00</published><updated>2023-09-19T12:00:01-04:00</updated><id>http://localhost:4000/2023/09/19/Kristina-Lerman&apos;s-Talk:-Why-Social-Media-is-So-Uniquely-Toxic-to-Our-Mental-Health</id><content type="html" xml:base="http://localhost:4000/2023/09/19/Kristina-Lerman&apos;s-Talk-Why-Social-Media-is-So-Uniquely-Toxic-to-Our-Mental-Health.html">&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt; Kristina Lerman, Principal Scientist, University of Southern California Information Sciences Institute&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Date:&lt;/b&gt; Thursday, September 21, 2023&lt;/p&gt;
 
@@ -82,4 +201,4 @@ For those interested, (completely optional) related background reading includes:
 
 &lt;p&gt;…&lt;/p&gt;
 
-&lt;p&gt;The organizers of the event are Peter, Rosta, Morgan, Lingfei, and Yu-Ru.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are hosting a cross-group student welcome picnic at xx Park. Some description here…</summary></entry><entry><title type="html">Hello PittCSS!</title><link href="http://localhost:4000/2021/08/20/hello-pittcss.html" rel="alternate" type="text/html" title="Hello PittCSS!" /><published>2021-08-20T12:00:00-04:00</published><updated>2021-08-20T12:00:00-04:00</updated><id>http://localhost:4000/2021/08/20/hello-pittcss</id><content type="html" xml:base="http://localhost:4000/2021/08/20/hello-pittcss.html">&lt;p&gt;We launch the PITT Initiative on the Computational Social Science to connect to everyone who are interested in doing CSS research.&lt;/p&gt;</content><author><name></name></author><summary type="html">We launch the PITT Initiative on the Computational Social Science to connect to everyone who are interested in doing CSS research.</summary></entry></feed>
+&lt;p&gt;The organizers of the event are Peter, Rosta, Morgan, Lingfei, and Yu-Ru.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are hosting a cross-group student welcome picnic at xx Park. Some description here…</summary></entry></feed>
